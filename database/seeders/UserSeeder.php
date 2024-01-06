@@ -14,7 +14,8 @@ class UserSeeder extends Seeder
             'email' => 'andresleondoylet@gmail.com'
         ], [
             'name' => 'Andrés Alexander León Doylet',
-            'password' => bcrypt('123456')
+            'password' => bcrypt('123456'),
+            'is_superadmin' => true
         ]);
     }
 }
